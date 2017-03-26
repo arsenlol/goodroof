@@ -19,6 +19,7 @@ $(document).ready(function(){
 		asNavFor: '.item-big-image-carousel',
 		dots: false,
 		focusOnSelect: true,
+		centerMode:true,
 		prevArrow: '<div class="icon-arr_left"></div>',
 		nextArrow: '<div class="icon-arr_right"></div>'
 	});

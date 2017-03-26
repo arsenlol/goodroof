@@ -153,11 +153,11 @@ footer { height: 322px;  margin-top: -322px;}
 .top-contacts a {display: block;}
 .top-contacts a > div { vertical-align: middle; }
 .top-contacts-phone-number {font-weight: 800;}
-.logo-label { font-size: 24px; color: #45b759; text-transform: uppercase; line-height: 1.25; font-weight: 900;}
+.logo-label { font-size: 27px; color: #45b759; text-transform: uppercase; line-height: 1.25; font-weight: 900;}
 
-.top-nav nav ul {list-style: none; padding:0; margin: 0;}
+.top-nav nav ul {list-style: none; padding:0; margin: 0; text-align: center;}
 .top-nav nav ul li {display:inline-block;}
-.top-nav nav ul li a {text-transform: uppercase; font-weight: 700; display: inline-block; padding:15px 20px; color:#333; font-size: 16px; transition: .3s; }
+.top-nav nav ul li a {text-transform: uppercase; font-weight: 700; display: inline-block; padding:15px 20px; color:#333; font-size: 18px; transition: .3s; }
 .top-nav nav ul li a:hover {background-color: #45b759; color:#fff;}
 .top-nav nav ul li a:active {text-decoration: underline;}
 
@@ -182,9 +182,10 @@ footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
 .bot-nav {padding:35px 0;}
 .bot-nav ul {padding: 0; margin:0; list-style:none;}
 .bot-nav ul a {transition:.3s; display: block;}
-.bot-nav ul a:hover {padding-left:10px;}
+.bot-nav .bot-menu-main a:hover {padding-left:5px;}
+.bot-nav .bot-menu-secondary a:hover {padding-left:20px;}
 .bot-menu-main a { color:#fff; font-weight: 700; font-size: 16px; line-height: 30px;}
-.bot-menu-secondary li a { color:#ccc; font-size: 14px; line-height: 24px;}
+.bot-menu-secondary li a { color:#ccc; font-size: 14px; line-height: 24px; padding-left:15px;}
 .bot-contacts-phone-number, .bot-contacts-mail-address {display: inline-block; margin-left:15px; color:#fff; font-size: 18px; font-weight: 700;}
 .icon-call_white, .icon-mail_white {position: relative; transition: 0.3s; left:0;}
 .bot-contacts-phone:hover .icon-call_white, .bot-contacts-mail:hover .icon-mail_white {left:5px;}
@@ -271,7 +272,7 @@ footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
 .catalog-item-title { padding:20px; font-size: 20px; }
 .catalog-item-price { display: inline-block;  line-height: 58px; height:55px; text-align: center; padding:0 20px;}
 .catalog-item-price span { display: inline-block;  vertical-align:middle; line-height: 24px;}
-.catalog-item-order { display: inline-block; float:right; font-weight: 800; color:#fff; background-color: #45b759; 
+.catalog-item-order { display: inline-block; float:right; font-weight: 800; color:#fff; background-color: #45b759; font-size: 18px;
                       text-transform: uppercase; width:165px; height:55px; line-height: 58px; text-align: center;  transition:.3s;}
 .catalog-item:hover .catalog-item-order { background-color: #0f9b3d; color:#fff;}
 .pagination { width:350px; margin: 40px auto; display: block;}
@@ -377,7 +378,7 @@ footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
 
 .service {padding:30px 0;}
 .service p {font-size: 16px; line-height: 30px;}
-.service h3 > * {vertical-align: middle; line-height:35px; margin-bottom:20px;}
+.service h3 > * {vertical-align: middle; line-height:35px;}
 .service h3 span {margin-left:10px; font-size: 24px; font-weight: 700;}
 .icon-calc_green_big {display: inline-block; width:35px; height:35px; background:url(../img/calc_green_big.png);}
 .icon-truck_green_big {display: inline-block; width:46px; height:34px; background:url(../img/truck_green_big.png);}
@@ -491,7 +492,7 @@ article h3 {font-size: 24px; color:#333; font-weight: 700; text-align: center; m
 #content { padding-bottom: 350px;}
 footer { height: 350px;  margin-top: -350px;}
 footer { background:#663933 url('../img/footer-bg.jpg') 0 100%/100% 300px no-repeat}
-.top-nav nav ul li a { padding: 15px 4px; font-size: 13px;}
+.top-nav nav ul li a { padding: 15px 8px; font-size: 16px;}
 .logo-wrap {float: left; }
 .top-contacts > div {display: inline-block; margin-left:20px;}
 .bot-contacts > div {display: inline-block; margin-right:20px;}
