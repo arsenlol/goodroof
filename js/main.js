@@ -68,4 +68,35 @@ $(document).ready(function(){
  		});
 	}
 
+	if (window.location.search.includes('category')) {
+		var param = window.location.search
+		var value = param.substr(param.search(/category/)+9,1);
+		$('.catalog-nav-list ul li a').removeClass('active');
+		$($('.catalog-nav-list ul li a')[value-1]).addClass('active');
+	} else {
+		$($('.catalog-nav-list ul li a')[0]).addClass('active');
+	}
+
+	$('.pagination a').click(function(event){
+		event.preventDefault();
+		var value;
+		var getPage = function(elem){
+			var start = $(elem).attr('href').search(/page/);
+			var value = $(elem).attr('href').substr(start+5);
+			return value;
+		}
+		if ($(this).attr('href').includes('prev')) {
+			value = parseInt(getPage($('.pagination a.active')))-1;
+			if (value == 0) { return }
+		} else if ($(this).attr('href').includes('next')) {
+			value = parseInt(getPage($('.pagination a.active')))+1;
+			if (value == 6) { return }
+		} else {
+			value = getPage(this);
+		}
+		$('.pagination a').removeClass('active');
+		$($('.pagination a')[value]).addClass('active');
+	})
+	
+
 });
