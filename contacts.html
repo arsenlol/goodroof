@@ -124,9 +124,34 @@
                     </div>
                 </div>
             </section>
-            <section id="map">
-                <img src="img/demo-map.jpg" alt="demo-map">
-            </section>
+            <section id="map"></section>
+            <script>
+                function initMap() {
+                    // Create a map object and specify the DOM element for display.
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                      center: {lat: -34.397, lng: 150.644},
+                      scrollwheel: false,
+                      zoom: 8
+                    });
+                    var image = {
+                        url: 'img/marker.png',
+                        // This marker is 20 pixels wide by 32 pixels high.
+                        size: new google.maps.Size(37, 51),
+                        // The origin for this image is (0, 0).
+                        origin: new google.maps.Point(0, 0),
+                        // The anchor for this image is the base of the flagpole at (0, 32).
+                        anchor: new google.maps.Point(17, 51)
+                      };
+                    var beachMarker = new google.maps.Marker({
+                        position: {lat: -34.397, lng: 150.644},
+                        map: map,
+                        icon: image
+                    });
+
+                }
+
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeIiNYoEX7m88YD2Dld8oYZBN4_eeHS0I&callback=initMap" async defer></script>
 
         </section>
 

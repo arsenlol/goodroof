@@ -98,5 +98,9 @@ $(document).ready(function(){
 		$($('.pagination a')[value]).addClass('active');
 	})
 	
+	$('#gallery-more').click(function(event){
+		event.preventDefault()
+		$('#gallery-more .icon-spinner').toggleClass('spin')
+	});
 
 });
