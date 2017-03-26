@@ -234,7 +234,7 @@ footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
 .service-item-link a:hover {color:#fff; background-color: #45b759;}
 
 .advantages-list {text-align: center;}
-.advantage-item {display: inline-block; margin:20px;}
+.advantage-item {display: inline-block; margin:20px; vertical-align: top;}
 .advantage-item-label > * {display: inline-block; vertical-align: middle;}
 .advantage-item-label h3 {font-size: 20px; font-weight: 700; color:#45b759; text-transform: uppercase; margin-left:20px;}
 .advantage-item-text {text-align:left; padding:20px 10px 20px 60px;}
@@ -267,7 +267,7 @@ footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
 .catalog-item {border:2px solid transparent; width:360px; margin:0 0 25px; display: inline-block; transition:.3s;}
 .catalog-item:nth-child(odd) {margin-right:25px;}
 .catalog-item:hover {border:2px solid #0f9b3d;}
-.catalog-item-image { overflow:hidden;}
+.catalog-item-image { overflow:hidden; padding: 15px 10px; text-align: center;}
 .catalog-item-image img {max-width:100%; max-height:100%; }
 .catalog-item-title { padding:20px; font-size: 20px; }
 .catalog-item-price { display: inline-block;  line-height: 58px; height:55px; text-align: center; padding:0 20px;}
@@ -422,7 +422,7 @@ article {font-size: 16px;line-height: 24px; margin-bottom:40px;}
 .static-gallery figure:hover figcaption {opacity:1;}
 .static-gallery a { height: 360px; width:100%; vertical-align: middle; }
 .static-gallery img {position: absolute; top: 50%; min-height: 10%; max-height:100%; display: block; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); min-width: 100%;}
-.gallery-tabs {border:2px solid #f5f5f5; margin-bottom:20px; width:100%; }
+.gallery-tabs {border:1px solid #663931; border-radius:3px; margin-bottom:20px; width:100%; }
 .gallery-tab {text-align: center; line-height: 64px; cursor:pointer; background-color: #fff; float:left; width:33.3333%; font-weight: 700; font-size: 16px;}
 .gallery-tab.active {background:#45b759; color:#fff; }
 .gallery-tab span {display:inline-block; vertical-align: middle; line-height: 22px;}
