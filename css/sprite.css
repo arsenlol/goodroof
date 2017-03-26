@@ -1,0 +1,137 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-adv_clock {
+  background-image: url(sprite.png);
+  background-position: -53px -62px;
+  width: 52px;
+  height: 52px;
+}
+.icon-adv_eco {
+  background-image: url(sprite.png);
+  background-position: 0px -62px;
+  width: 53px;
+  height: 53px;
+}
+.icon-adv_house {
+  background-image: url(sprite.png);
+  background-position: 0px -115px;
+  width: 50px;
+  height: 50px;
+}
+.icon-adv_safe {
+  background-image: url(sprite.png);
+  background-position: 0px -165px;
+  width: 44px;
+  height: 55px;
+}
+.icon-adv_wallet {
+  background-image: url(sprite.png);
+  background-position: -105px -62px;
+  width: 53px;
+  height: 49px;
+}
+.icon-arr_left {
+  background-image: url(sprite.png);
+  background-position: -232px -20px;
+  width: 12px;
+  height: 20px;
+}
+.icon-arr_right {
+  background-image: url(sprite.png);
+  background-position: -232px 0px;
+  width: 12px;
+  height: 20px;
+}
+.icon-box_white {
+  background-image: url(sprite.png);
+  background-position: -87px -115px;
+  width: 42px;
+  height: 29px;
+}
+.icon-breadcrumbs_arrow {
+  background-image: url(sprite.png);
+  background-position: -232px -40px;
+  width: 7px;
+  height: 12px;
+}
+.icon-calc {
+  background-image: url(sprite.png);
+  background-position: -50px -115px;
+  width: 37px;
+  height: 37px;
+}
+.icon-calc_green {
+  background-image: url(sprite.png);
+  background-position: -154px -115px;
+  width: 25px;
+  height: 25px;
+}
+.icon-call_green {
+  background-image: url(sprite.png);
+  background-position: -129px -115px;
+  width: 25px;
+  height: 25px;
+}
+.icon-call_white {
+  background-image: url(sprite.png);
+  background-position: -78px -165px;
+  width: 22px;
+  height: 22px;
+}
+.icon-mail_green {
+  background-image: url(sprite.png);
+  background-position: -207px -115px;
+  width: 23px;
+  height: 18px;
+}
+.icon-mail_white {
+  background-image: url(sprite.png);
+  background-position: -100px -165px;
+  width: 23px;
+  height: 18px;
+}
+.icon-package_green {
+  background-image: url(sprite.png);
+  background-position: -206px -62px;
+  width: 24px;
+  height: 28px;
+}
+.icon-package_white {
+  background-image: url(sprite.png);
+  background-position: -44px -165px;
+  width: 34px;
+  height: 39px;
+}
+.icon-prod_shadow {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 232px;
+  height: 62px;
+}
+.icon-select_arrow {
+  background-image: url(sprite.png);
+  background-position: -232px -52px;
+  width: 11px;
+  height: 7px;
+}
+.icon-truck_brown {
+  background-image: url(sprite.png);
+  background-position: -158px -62px;
+  width: 48px;
+  height: 36px;
+}
+.icon-truck_green {
+  background-image: url(sprite.png);
+  background-position: -179px -115px;
+  width: 28px;
+  height: 21px;
+}
