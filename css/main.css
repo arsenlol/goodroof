@@ -127,7 +127,7 @@ textarea {
 
 * {box-sizing: border-box;}
 body { font-family: ProximaNova; color:#333;}
-a, a:hover, a:active, a:visited, a:hover *, a:active *, a:visited * {text-decoration: none; outline: none; color:inherit;}
+a, a:hover, a:active, a:visited, a:hover *, a:active *, a:visited * {text-decoration: none; outline: none;}
 header~section  {padding: 30px 0;}
 h2.title { color:#663931; font-size: 34px; font-weight: 900; text-align: center; margin:50px 0 30px; }
 .slick-slide {outline: none}
@@ -141,7 +141,8 @@ footer { height: 322px;  margin-top: -322px;}
 .top {padding:20px 0; border-bottom:2px solid #45b759;}
 .top-slogan {line-height:105px;}
 .top-slogan h2 {font-size: 24px; font-weight: 400; display: inline-block; vertical-align: middle; margin:5px 0; line-height:30px;}
-.logo {margin-top:10px;}
+.logo {margin-top:10px; display:block; color:#45b759;}
+.logo:hover {color:#45b759;}
 .top-contacts-wrap {text-align: right; line-height:105px;}
 .top-contacts {display: inline-block; text-align: left; vertical-align: middle; line-height:30px; }
 .top-contacts-phone-number, .top-contacts-mail-address {display: inline-block; margin-left:15px; color:#333;}
@@ -180,8 +181,8 @@ footer { height: 322px;  margin-top: -322px;}
 footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
 .bot-nav {padding:35px 0;}
 .bot-nav ul {padding: 0; margin:0; list-style:none;}
-.bot-nav ul a {transition:.3s;}
-.bot-nav ul a:hover {margin-left:10px;}
+.bot-nav ul a {transition:.3s; display: block;}
+.bot-nav ul a:hover {padding-left:10px;}
 .bot-menu-main a { color:#fff; font-weight: 700; font-size: 16px; line-height: 30px;}
 .bot-menu-secondary li a { color:#ccc; font-size: 14px; line-height: 24px;}
 .bot-contacts-phone-number, .bot-contacts-mail-address {display: inline-block; margin-left:15px; color:#fff; font-size: 18px; font-weight: 700;}
@@ -189,6 +190,7 @@ footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
 .bot-contacts-phone:hover .icon-call_white, .bot-contacts-mail:hover .icon-mail_white {left:5px;}
 .bot-contacts > div { margin:10px 0;}
 .bot-contacts a {display: block;}
+.bot-contacts a:hover { color:#fff;}
 .bot-contacts a > div { vertical-align: middle; }
 .copyright {font-size: 14px; color:#999; border-top:1px solid #fff; padding:20px 0; line-height: 30px;}
 .paroxod i {vertical-align:middle; transition:.3s; margin-left:5px; height:30px; width:30px; border-radius:50%; border:1px solid #fff; display:inline-block; text-align:center;
@@ -351,7 +353,7 @@ footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
                                 vertical-align:middle; cursor:pointer;}
 .rooftype-option input+label i:hover { background-color: #45b759; }
 .rooftype-option input:checked+label i { border:5px solid #45b759; background-color: #fff;}
-.get-roof-form {border:5px solid #45b759; padding: 30px 30px 0; margin:50px 0 100px;}
+.get-roof-form {border:5px solid #45b759; padding: 30px 30px 0; margin:20px}
 .get-roof-form h4 {font-size: 20px; font-weight: 700; text-align: center; line-height: 36px;}
 .form-group {margin:30px 0 15px; text-align: center;}
 .form-group .name, .form-group .email, .form-group .phone {display:inline-block; margin:0 2% 20px; width:290px; position: relative;}
@@ -373,6 +375,7 @@ footer {background:url('../img/footer-bg.jpg') 0 0/100% 100% no-repeat;}
 
 /* < Услуги >*/
 
+.service {padding:30px 0;}
 .service p {font-size: 16px; line-height: 30px;}
 .service h3 > * {vertical-align: middle; line-height:35px; margin-bottom:20px;}
 .service h3 span {margin-left:10px; font-size: 24px; font-weight: 700;}
